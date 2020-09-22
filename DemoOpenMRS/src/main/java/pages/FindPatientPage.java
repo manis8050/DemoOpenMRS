@@ -8,6 +8,8 @@ import locators.FindPatientRecordLocator;
 public class FindPatientPage extends FindPatientRecordLocator {
 	WebDriver driver;
 	
+	
+	//This is param constructor to assign the driver object 
 	public FindPatientPage(WebDriver driver)
 	{
 		this.driver=driver;
